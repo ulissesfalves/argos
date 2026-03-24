@@ -1,0 +1,10 @@
+project:
+  name: ARGOS
+  timezone: UTC
+  default_calendar: monthly
+feature_store:
+  strict_temporal_validation: true
+  require_availability_date: true
+  deterministic_hash_algorithm: sha256
+join_policy:
+  default_rule: exact
